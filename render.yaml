@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: goyal-analytics-group
+    name: goyal-analytics
     runtime: static
     buildCommand: npm install && npm run build
     staticPublishPath: dist
